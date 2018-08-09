@@ -32,7 +32,6 @@ public class AddressBookApplication {
         System.out.print(item + "\t\t");
       }
       choice = MenuItems.valueOf(reader.requestLine("\nEnter you Choice").trim().toUpperCase());
-      System.out.println(choice);
       addressBookView.update(choice);
     } while (!choice.equals(MenuItems.QUIT));
     

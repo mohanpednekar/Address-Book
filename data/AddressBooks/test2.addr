@@ -1,6 +1,17 @@
 {
   "collection": [
     {
+      "fname": "Guru NAdh",
+      "sname": "Some Surname",
+      "address": {
+        "address": "JV Colony",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "zip": "500024"
+      },
+      "phone": "123456789"
+    },
+    {
       "fname": "Mohan",
       "sname": "Pednekar",
       "address": {
@@ -10,17 +21,6 @@
         "zip": "500032"
       },
       "phone": "6238671234"
-    },
-    {
-      "fname": "Atul",
-      "sname": "Yadav",
-      "address": {
-        "address": "Isthara",
-        "city": "JV Colony",
-        "state": "TS",
-        "zip": "500081"
-      },
-      "phone": "7642343876"
     }
   ]
 }
